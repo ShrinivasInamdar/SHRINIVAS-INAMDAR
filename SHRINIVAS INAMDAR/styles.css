@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+}
+#grad{
+    
+    background: linear-gradient(-45deg, rgb(59, 157, 211), rgb(17, 176, 142), blue, yellow); 
+        background-size: 400% 400%;
+        width: 100%;
+        height: 200vh;
+        margin-top:0;
+        animation:  animate 15s ease infinite;
+    
+}
+@keyframes animate{
+    0%{
+        background-position: 0 50%;
+        }
+        50%{
+        background-position: 100% 50%;
+        }
+        100%{
+        background-position:0 50%;
+        }
+}
+#heading{
+    text-align: center;
+    margin-top: 80px;
+}
